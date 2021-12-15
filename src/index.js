@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 
 if (window.location.hash && window.location.hash.includes("download")) {
   window.open("/qb" + window.location.hash, "_blank");
+  // eslint-disable-next-line no-restricted-globals
   history.back();
 }
 
