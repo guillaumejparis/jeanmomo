@@ -10,7 +10,7 @@ function App() {
           route="https://guillaumejparis.github.io/recipes"
           text={"Basilic"}
         />
-        <Logo route="/bitwarden" text={"Bitwarden"} />
+        <Logo route="/bw" text={"Bitwarden"} />
         <Logo route="/domoticz" text={"Domoticz"} />
         <Logo route="/netdata" text={"Netdata"} />
         <Logo route="/plex" text={"Plex"} />
