@@ -1,6 +1,7 @@
 import "./App.css";
 import Logo from "./Logo";
 
+// Do not forget to update service-worker if adding a new route
 function App() {
   return (
     <div className="app">

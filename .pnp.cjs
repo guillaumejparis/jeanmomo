@@ -44,7 +44,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:3fccdd4a9930898ec903cd267f74208ae921566bc545419942b8c8e15fdb9c5a82316e82712c038c2637698450ba1ba01360c07f84eba82f18cc55a7de1bfe2a#npm:17.0.2"],
             ["react-scripts", "virtual:3fccdd4a9930898ec903cd267f74208ae921566bc545419942b8c8e15fdb9c5a82316e82712c038c2637698450ba1ba01360c07f84eba82f18cc55a7de1bfe2a#npm:5.0.0"],
-            ["web-vitals", "npm:2.1.2"]
+            ["web-vitals", "npm:2.1.2"],
+            ["workbox-background-sync", "npm:5.1.4"],
+            ["workbox-broadcast-update", "npm:5.1.4"],
+            ["workbox-cacheable-response", "npm:5.1.4"],
+            ["workbox-core", "npm:5.1.4"],
+            ["workbox-expiration", "npm:5.1.4"],
+            ["workbox-google-analytics", "npm:5.1.4"],
+            ["workbox-navigation-preload", "npm:5.1.4"],
+            ["workbox-precaching", "npm:5.1.4"],
+            ["workbox-range-requests", "npm:5.1.4"],
+            ["workbox-routing", "npm:5.1.4"],
+            ["workbox-strategies", "npm:5.1.4"],
+            ["workbox-streams", "npm:5.1.4"]
           ],
           "linkType": "SOFT",
         }]
@@ -9322,7 +9334,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:3fccdd4a9930898ec903cd267f74208ae921566bc545419942b8c8e15fdb9c5a82316e82712c038c2637698450ba1ba01360c07f84eba82f18cc55a7de1bfe2a#npm:17.0.2"],
             ["react-scripts", "virtual:3fccdd4a9930898ec903cd267f74208ae921566bc545419942b8c8e15fdb9c5a82316e82712c038c2637698450ba1ba01360c07f84eba82f18cc55a7de1bfe2a#npm:5.0.0"],
-            ["web-vitals", "npm:2.1.2"]
+            ["web-vitals", "npm:2.1.2"],
+            ["workbox-background-sync", "npm:5.1.4"],
+            ["workbox-broadcast-update", "npm:5.1.4"],
+            ["workbox-cacheable-response", "npm:5.1.4"],
+            ["workbox-core", "npm:5.1.4"],
+            ["workbox-expiration", "npm:5.1.4"],
+            ["workbox-google-analytics", "npm:5.1.4"],
+            ["workbox-navigation-preload", "npm:5.1.4"],
+            ["workbox-precaching", "npm:5.1.4"],
+            ["workbox-range-requests", "npm:5.1.4"],
+            ["workbox-routing", "npm:5.1.4"],
+            ["workbox-strategies", "npm:5.1.4"],
+            ["workbox-streams", "npm:5.1.4"]
           ],
           "linkType": "SOFT",
         }]
@@ -15850,6 +15874,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["workbox-background-sync", [
+        ["npm:5.1.4", {
+          "packageLocation": "./.yarn/cache/workbox-background-sync-npm-5.1.4-7507648a4a-14655d0254.zip/node_modules/workbox-background-sync/",
+          "packageDependencies": [
+            ["workbox-background-sync", "npm:5.1.4"],
+            ["workbox-core", "npm:5.1.4"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:6.4.2", {
           "packageLocation": "./.yarn/cache/workbox-background-sync-npm-6.4.2-913b2fbb28-db8c267cef.zip/node_modules/workbox-background-sync/",
           "packageDependencies": [
@@ -15861,6 +15893,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["workbox-broadcast-update", [
+        ["npm:5.1.4", {
+          "packageLocation": "./.yarn/cache/workbox-broadcast-update-npm-5.1.4-96771b5403-b56df2fde6.zip/node_modules/workbox-broadcast-update/",
+          "packageDependencies": [
+            ["workbox-broadcast-update", "npm:5.1.4"],
+            ["workbox-core", "npm:5.1.4"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:6.4.2", {
           "packageLocation": "./.yarn/cache/workbox-broadcast-update-npm-6.4.2-40dfb2c88e-cbf948c845.zip/node_modules/workbox-broadcast-update/",
           "packageDependencies": [
@@ -15918,6 +15958,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["workbox-cacheable-response", [
+        ["npm:5.1.4", {
+          "packageLocation": "./.yarn/cache/workbox-cacheable-response-npm-5.1.4-89774929bd-3d8940dbee.zip/node_modules/workbox-cacheable-response/",
+          "packageDependencies": [
+            ["workbox-cacheable-response", "npm:5.1.4"],
+            ["workbox-core", "npm:5.1.4"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:6.4.2", {
           "packageLocation": "./.yarn/cache/workbox-cacheable-response-npm-6.4.2-410448f06e-ca8e1d64ec.zip/node_modules/workbox-cacheable-response/",
           "packageDependencies": [
@@ -15928,6 +15976,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["workbox-core", [
+        ["npm:5.1.4", {
+          "packageLocation": "./.yarn/cache/workbox-core-npm-5.1.4-a55e463fcd-6062bc3131.zip/node_modules/workbox-core/",
+          "packageDependencies": [
+            ["workbox-core", "npm:5.1.4"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:6.4.2", {
           "packageLocation": "./.yarn/cache/workbox-core-npm-6.4.2-43591bfe4c-bbdf4346e8.zip/node_modules/workbox-core/",
           "packageDependencies": [
@@ -15937,6 +15992,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["workbox-expiration", [
+        ["npm:5.1.4", {
+          "packageLocation": "./.yarn/cache/workbox-expiration-npm-5.1.4-a291f68bea-c4648a008d.zip/node_modules/workbox-expiration/",
+          "packageDependencies": [
+            ["workbox-expiration", "npm:5.1.4"],
+            ["workbox-core", "npm:5.1.4"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:6.4.2", {
           "packageLocation": "./.yarn/cache/workbox-expiration-npm-6.4.2-7c8e6640d9-15234417ec.zip/node_modules/workbox-expiration/",
           "packageDependencies": [
@@ -15948,6 +16011,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["workbox-google-analytics", [
+        ["npm:5.1.4", {
+          "packageLocation": "./.yarn/cache/workbox-google-analytics-npm-5.1.4-d1fb97c648-2783e93f8a.zip/node_modules/workbox-google-analytics/",
+          "packageDependencies": [
+            ["workbox-google-analytics", "npm:5.1.4"],
+            ["workbox-background-sync", "npm:5.1.4"],
+            ["workbox-core", "npm:5.1.4"],
+            ["workbox-routing", "npm:5.1.4"],
+            ["workbox-strategies", "npm:5.1.4"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:6.4.2", {
           "packageLocation": "./.yarn/cache/workbox-google-analytics-npm-6.4.2-edf2c91118-69e43a18c6.zip/node_modules/workbox-google-analytics/",
           "packageDependencies": [
@@ -15961,6 +16035,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["workbox-navigation-preload", [
+        ["npm:5.1.4", {
+          "packageLocation": "./.yarn/cache/workbox-navigation-preload-npm-5.1.4-313f8f1db0-ed6b19f063.zip/node_modules/workbox-navigation-preload/",
+          "packageDependencies": [
+            ["workbox-navigation-preload", "npm:5.1.4"],
+            ["workbox-core", "npm:5.1.4"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:6.4.2", {
           "packageLocation": "./.yarn/cache/workbox-navigation-preload-npm-6.4.2-dc06fe9527-ab8433b12d.zip/node_modules/workbox-navigation-preload/",
           "packageDependencies": [
@@ -15971,6 +16053,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["workbox-precaching", [
+        ["npm:5.1.4", {
+          "packageLocation": "./.yarn/cache/workbox-precaching-npm-5.1.4-d35052cde8-5593c5b9c3.zip/node_modules/workbox-precaching/",
+          "packageDependencies": [
+            ["workbox-precaching", "npm:5.1.4"],
+            ["workbox-core", "npm:5.1.4"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:6.4.2", {
           "packageLocation": "./.yarn/cache/workbox-precaching-npm-6.4.2-f7099d9610-b1d6c6a624.zip/node_modules/workbox-precaching/",
           "packageDependencies": [
@@ -15983,6 +16073,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["workbox-range-requests", [
+        ["npm:5.1.4", {
+          "packageLocation": "./.yarn/cache/workbox-range-requests-npm-5.1.4-460454c038-c67b467023.zip/node_modules/workbox-range-requests/",
+          "packageDependencies": [
+            ["workbox-range-requests", "npm:5.1.4"],
+            ["workbox-core", "npm:5.1.4"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:6.4.2", {
           "packageLocation": "./.yarn/cache/workbox-range-requests-npm-6.4.2-dcf3dc5c1d-940297ed42.zip/node_modules/workbox-range-requests/",
           "packageDependencies": [
@@ -16008,6 +16106,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["workbox-routing", [
+        ["npm:5.1.4", {
+          "packageLocation": "./.yarn/cache/workbox-routing-npm-5.1.4-a3a18707d8-4199a02b43.zip/node_modules/workbox-routing/",
+          "packageDependencies": [
+            ["workbox-routing", "npm:5.1.4"],
+            ["workbox-core", "npm:5.1.4"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:6.4.2", {
           "packageLocation": "./.yarn/cache/workbox-routing-npm-6.4.2-37a74bfe1c-7cb503caa2.zip/node_modules/workbox-routing/",
           "packageDependencies": [
@@ -16018,6 +16124,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["workbox-strategies", [
+        ["npm:5.1.4", {
+          "packageLocation": "./.yarn/cache/workbox-strategies-npm-5.1.4-2d603fefe4-6ed247bfc0.zip/node_modules/workbox-strategies/",
+          "packageDependencies": [
+            ["workbox-strategies", "npm:5.1.4"],
+            ["workbox-core", "npm:5.1.4"],
+            ["workbox-routing", "npm:5.1.4"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:6.4.2", {
           "packageLocation": "./.yarn/cache/workbox-strategies-npm-6.4.2-148ef356d9-f981ab0bb1.zip/node_modules/workbox-strategies/",
           "packageDependencies": [
@@ -16028,6 +16143,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["workbox-streams", [
+        ["npm:5.1.4", {
+          "packageLocation": "./.yarn/cache/workbox-streams-npm-5.1.4-3aabea1172-daaedb22da.zip/node_modules/workbox-streams/",
+          "packageDependencies": [
+            ["workbox-streams", "npm:5.1.4"],
+            ["workbox-core", "npm:5.1.4"],
+            ["workbox-routing", "npm:5.1.4"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:6.4.2", {
           "packageLocation": "./.yarn/cache/workbox-streams-npm-6.4.2-f2ee310514-b17223f0a6.zip/node_modules/workbox-streams/",
           "packageDependencies": [
